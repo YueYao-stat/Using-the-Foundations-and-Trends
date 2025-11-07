@@ -140,309 +140,45 @@ lengerich@wisc.edu
 
 \makeabstracttitle
 
-\begin{abstract}
-Modern predictive systems are expected to adapt their behavior to the specific situation they are facing. 
-A clinical model should not treat every patient the same; a retrieval-augmented model should change its answer when given different evidence; a mixture-of-experts model should route different inputs to different experts. 
-We call this capability \textbf{context-adaptive inference}: before predicting, the system uses information about the current context to specialize its parameters or computation for that instance.
+% abstract
+\input{content/01abstract.tex}
 
-This article provides a unified view of context-adaptive inference across three traditions that are usually treated separately: 
-(i) explicit adaptation in statistics (e.g., varying-coefficient models, local regression, hierarchical sharing), 
-(ii) rapid task-specific adaptation in meta-learning and transfer, and 
-(iii) implicit adaptation in large foundation models via prompting, retrieval, and expert routing. 
-We formalize these approaches under a common objective: to map context $c$ to adapted parameters $\theta(c)$, then to predict via $f(x; \theta(c))$. 
-Under squared loss, linear prediction heads, and fixed features, we prove that explicit parameter adaptation and implicit routing are mathematically equivalent to kernel ridge regression on joint features of inputs and context. 
-Building on this bridge, we propose practical design principles and evaluation metrics including adaptation-efficiency, routing stability, and context-specific robustness to guide when to specialize, how to constrain that specialization, and how to audit context-adaptive models in deployment. 
-Finally, we identify open problems in identifiability, robustness under distribution shift, and efficient large-scale adaptation, outlining design principles for methods that are scalable, reliable, and transparent in real-world settings.
-\end{abstract}
 
-%========================
-% Introduction (nowfnt)
-%========================
+% introduction
 \chapter{Introduction}\label{c:intro}
 
-A convenient simplifying assumption in statistical modeling is that observations are independent and identically distributed (i.i.d.). This assumption allows one global model to make predictions across all data points. In practice, this assumption rarely holds. Data are collected across different individuals, environments, and tasks, each with its own characteristics, constraints, and dynamics. When the i.i.d. assumption breaks, a single global model can obscure meaningful heterogeneity.
+\input{content/02introduction.tex}
 
-To model this heterogeneity, a growing class of methods makes inference \emph{adaptive to context}. These include varying--coefficient models in statistics, transfer and meta--learning in machine learning, and in--context learning in large foundation models. Although these approaches arise from different traditions, they share a common goal: use contextual information---whether covariates, environments, or support sets---to inform sample--specific inference. Figure~\ref{fig:overview-bridge} summarizes how statistics, meta--learning, and foundation models fit a unified \emph{context $\to$ parameters} view, which we formalize in \eqref{eq:star-obj}.
+% overview
 
-\begin{figure}[ht!]
-  \centering
-  \includegraphics[width=0.90\textwidth]{images/overview}
-  \caption{Overview of the theoretical bridge. Three traditions---statistics (varying coefficients, local smoothing, hierarchical sharing), meta--learning (bilevel training, fast adaptation, hypernetworks), and foundation models (prompted inference and in--context learning)---feed a unified context--to--parameters view. The bridge highlights shared design knobs: context information, inductive bias, and compute.}
-  \label{fig:overview-bridge}
-\end{figure}
+\input{content/03overview.tex}
 
-We formalize this by assuming that each observation $x_i$ is drawn from a distribution governed by parameters $\theta_i$,
-\begin{equation}
-  x_i \sim P(x;\,\theta_i).
-\end{equation}
-In population models, the assumption is $\theta_i=\theta$ for all $i$. In context--adaptive models, we posit that the parameters vary with context,
-\begin{equation}
-  \theta_i = f(c_i)
-  \quad\text{or}\quad
-  \theta_i \sim P(\theta \mid c_i),
-\end{equation}
-where $c_i$ captures relevant covariates or the environment for unit $i$. The goal is to estimate either a deterministic function $f$ or a conditional distribution over parameters.
+% historical
+\input{content/04historical.tex}
 
-This shift introduces new challenges. Estimating a unique $\theta_i$ from a single unit is ill--posed without structure (smoothness, sparsity, shared representations, or latent grouping). As adaptivity becomes more implicit, for example via neural networks or black--box inference, we also need tools to recover, interpret, or constrain the underlying parameter variation.
+% principles
+\input{content/05principles.tex}
 
-%-------------------------------
-\section{Problem Setup and Notation}\label{sec:setup}
-%-------------------------------
-We study supervised prediction with units $i=1,\dots,n$. Each unit has a \emph{context} $c_i\in\mathcal{C}$ (e.g., patient, user, site, or time) and observed data $\mathcal{D}_i=\{(x_{ij},y_{ij})\}_{j=1}^{m_i}$ with $x_{ij}\in\mathcal{X}$ and $y_{ij}\in\mathcal{Y}$. Predictions come from a model family $\mathcal{H}=\{h_\theta:\mathcal{X}\to\mathcal{Y}\mid \theta\in\Theta\}$.
+% explicit
+\input{content/06explicit.tex}
 
-In global models, $\theta_i\equiv\theta^\star$. In context--adaptive models, parameters vary with context, namely $\theta_i=f(c_i)$ or $\theta_i\sim P(\theta\mid c_i)$. For a new unit with context $c$, we use the empirical objective
-\begin{equation}
-  \widehat{\theta}(c)\in\arg\min_{\theta\in\Theta}\;
-  \underbrace{\sum_{(i,j)\in S(c)} \ell\!\big(h_\theta(x_{ij}),y_{ij}\big)}_{\text{context-dependent support}}
-  \;+\;
-  \underbrace{\mathcal{R}(\theta;\,c)}_{\text{context-structured regularization}},
-  \tag{$\star$}\label{eq:star-obj}
-\end{equation}
-where $\ell$ is a proper loss (e.g., squared or logistic), $S(c)\subseteq\{1,\dots,n\}\times\mathbb{N}$ is a \emph{support set} selected for context $c$, and $\mathcal{R}(\theta;c)$ controls how parameters may vary with context.
+% implicit
+\input{content/07implicit.tex}
 
-\paragraph{How context enters.}
-\begin{itemize}
-\item \textbf{Explicit parameterization.} A map $f:\mathcal{C}\to\Theta$ sets $\theta_i=f(c_i)$ (e.g., varying coefficients, hierarchical Bayes, multi--task or meta--learning). Here $\mathcal{R}(\theta;c)$ typically regularizes $f$ (e.g., Lipschitz over $\mathcal{C}$, group lasso, low rank).
-\item \textbf{Implicit parameterization.} Context changes optimization or internal states without exposing $\theta$ directly (e.g., mixture--of--experts with gates $g(x,c)$; retrieval where $S(c)$ is built by a retriever $R(c)$; in--context learning where a prompt map $P(c)$ conditions a foundation model).
-\end{itemize}
+% chapter 08 interpretation
+\input{content/08interpretations.tex}    % need to update the references in bibtex
 
-For convenience, we use a \emph{context encoder} $\phi:\mathcal{C}\to\mathbb{R}^d$ and a similarity or kernel $K(c,c')$. A common instance of \eqref{eq:star-obj} is kernel--weighted risk,
-\begin{equation}
-  \sum_{i,j} w_{ij}(c)\,\ell\!\big(h_\theta(x_{ij}),y_{ij}\big)\;+\;\mathcal{R}(\theta),
-  \qquad
-  w_{ij}(c)\propto K\!\big(\phi(c),\phi(c_i)\big)\cdot \mathbf{1}\!\big[(i,j)\in S(c)\big].
-\end{equation}
+% chapter 09 invariant
+\input{content/09invariant.tex}
 
-\paragraph{Granularity and design knobs.}
-We refer to adaptation granularity $g\in\{\text{group},\text{unit},\text{example}\}$ and highlight three design knobs that recur throughout the review:
-\begin{enumerate}
-  \item \emph{Information} via $S(c)$ or $P(c)$ (what context is exposed);
-  \item \emph{Inductive bias} via $\mathcal{R}(\theta;c)$ (how parameters may vary);
-  \item \emph{Compute} via warm starts, caching, and the number of steps (how aggressively one solves \eqref{eq:star-obj} at test time).
-\end{enumerate}
+% chapter 10 applications and tools
+\input{content/10applications_tools.tex}
 
-\paragraph{Standing assumptions.}
-As needed, we use the following assumptions.
-(1) \emph{Exchangeability within context}: conditional on $(\theta_i,c_i)$, the pairs $(x_{ij},y_{ij})$ are i.i.d.  
-(2) \emph{Regularity}: either $\theta=f(c)$ with $f$ in a regular class (e.g., Lipschitz, sparse, low rank) or retrieval weights $w_{ij}(c)$ are bounded and locally normalized.  
-(3) \emph{Identifiability and stability}: the loss $\ell$ is convex in model outputs and $\mathcal{R}$ yields a unique or stable minimizer.  
-(4) \emph{Resource tracking}: we track $|S(c)|$, optimization steps, and memory to compare \emph{adaptation efficiency}.
+%  future_trends
+\input{content/11future_trends.tex}
 
-%-------------------------------
-\section{Theoretical Bridge}\label{sec:bridge}
-%-------------------------------
-Recent work suggests that explicit context models (e.g., varying coefficients; hierarchical or multitask learning) and implicit mechanisms (e.g., in--context learning via attention) often implement the same estimator class under squared loss, differing mainly in how they encode neighborhoods and regularization. We state this precisely below.
-
-\begin{proposition}[Explicit varying coefficients and linear ICL coincide with kernel ridge on joint features in the linear squared--loss setting]
-\label{prop:krr-bridge}
-
-Assume squared loss and the regression model $y=\langle \theta(c),x\rangle+\varepsilon$ with $\mathbb{E}[\varepsilon]=0$. Let
-
-\begin{enumerate}
-\item A context encoder $\phi:\mathcal{C}\to\mathbb{R}^{d_c}$,
-\item Joint features $\psi(x,c)=x\otimes\phi(c)\in\mathbb{R}^{d_x d_c}$,
-\item A context-dependent support set $S(c)$ with nonnegative weights $w_{ij}(c)$.
-\end{enumerate}
-
-\noindent
-\textit{(A) Explicit varying coefficients.}
-Let $\theta(c)=B\,\phi(c)$ with $B\in\mathbb{R}^{d_x\times d_c}$ and ridge penalty $\lambda\lVert B\rVert_F^2$. The weighted ridge solution equals
-\[
-\widehat y(x,c)=k_{(x,c)}^\top \big(K+\lambda I\big)^{-1} y,\qquad
-K_{ab}=\langle \psi_a,\psi_b\rangle=\langle x_a,x_b\rangle\cdot\langle \phi(c_a),\phi(c_b)\rangle,
-\]
-which is kernel ridge regression on joint features.
-
-\noindent
-\textit{(B) Implicit adaptation via linear in--context learning.}
-A single linear attention layer that consumes $S(c)$ with linear projections $q=Q\psi$, $k=K\psi$, $v=V\psi$ and a linear readout induces a predictor equal to kernel ridge with kernel
-\[
-k\big((x,c),(x',c')\big)=\langle q(x,c),k(x',c')\rangle,
-\]
-namely a learned dot--product kernel on transforms of $\psi$. In the NTK regime, training equals kernel regression with the network NTK, which is again a dot--product kernel on linear transforms of $\psi$.
-\end{proposition}
-
-\begin{corollary}[Retrieval, gating, and weighting are kernel or measure choices]
-Choosing $S(c)$ via a retriever $R(c)$ or gating in a mixture of experts corresponds to changing the kernel and the empirical measure through the weights $w_{ij}(c)$ used by kernel ridge on $\psi$.
-\end{corollary}
-
-\paragraph{Limitations.}
-The linear squared--loss bridge captures a large class of adaptors, yet it abstracts at least three aspects:  
-(1) Nonquadratic losses (e.g., logistic) change the effective kernel through loss curvature.  
-(2) A nonlinear prediction head (e.g., MLP or attention) introduces model curvature; thus the effective metric and weights depend on representation, and the fixed--kernel view no longer holds.  
-(3) Multimodal context encoders (e.g., text, graphs, or images) alter the neighborhood and regularizer simultaneously.
-
-%--------------------------------------------
-\section{Scope of the Review and Relation to Prior Work}\label{sec:scope}
-%--------------------------------------------
-We examine methods that use context to guide inference, either by specifying how parameters change with covariates or by learning to adapt implicitly. We begin with classical models that impose explicit structure (e.g., varying--coefficient models and multi--task learning), and then turn to more flexible approaches such as meta--learning and in--context learning with foundation models. Although these methods arise from different traditions, they share the goal of tailoring inference to the local characteristics of each observation or task. We highlight recurring themes, namely decomposition into simpler context--specific components, the ability of foundation models to both adapt to and generate context, and the ways that context awareness challenges classical homogeneity assumptions. These perspectives offer a unifying lens and suggest directions for adaptive, interpretable, and personalized models.
-
-\subsection*{Related Surveys and Reviews}
-Several surveys review specific aspects of context--adaptive inference but remain confined to one tradition. Table~\label{tab:surveys} summarizes representative works.
-
-\begin{table}[ht!]
-\centering
-\caption{Representative surveys that cover parts of the landscape. Most works focus on a single tradition and do not connect explicit and implicit approaches.}
-\label{tab:surveys}
-\begingroup
-\renewcommand{\arraystretch}{1.12}
-\begin{tabular}{@{}p{0.18\textwidth} p{0.16\textwidth} p{0.22\textwidth} p{0.18\textwidth} p{0.24\textwidth}@{}}
-\toprule
-\tagpdfsetup{table/header-rows=1}
-\textbf{Survey} & \textbf{Topic Focus} & \textbf{Scope} & \textbf{Coverage of Adaptivity} & \textbf{Gap Relative to This Work} \\
-\midrule
-Statistical Methods with Varying Coefficient Models~\citep{replace-with-vcm-key} &
-Varying--coefficient modeling &
-Classical statistical modeling with parameters as functions of covariates &
-Explicit adaptivity through $f(c)$ &
-Limited to explicit parametric formulations; no link to neural or emergent adaptation \\
-\addlinespace[2pt]
-A Survey of Deep Meta--Learning~\citep{replace-with-meta-key} &
-Meta--learning &
-Neural methods for cross--task adaptation &
-Task--level adaptivity enabling rapid generalization &
-Focused on task switching; lacks integration with explicit parameter modeling and implicit adaptation \\
-\addlinespace[2pt]
-LoRA: Low--Rank Adaptation of Large Language Models~\citep{replace-with-lora-key} &
-Parameter--efficient adaptation &
-Adapting large transformers via low--rank updates &
-Implicit adaptivity without full fine--tuning &
-Narrow mechanism focus; limited discussion of explicit contextual structure \\
-\addlinespace[2pt]
-Foundation Models in Vision, A Survey~\citep{replace-with-vision-fm-key} &
-Vision foundation models &
-Architectures, prompting, and fusion in vision &
-Implicit adaptivity via prompts or fusion &
-Domain--specific focus; limited theoretical connection \\
-\addlinespace[2pt]
-A Comprehensive Survey on Pretrained Foundation Models~\citep{replace-with-fm-key} &
-Pretrained foundation models &
-Models across modalities and training regimes &
-Implicit adaptivity via representation transfer &
-Broad scope without deep parameter--level analysis or explicit--implicit alignment \\
-\bottomrule
-\end{tabular}
-\endgroup
-\end{table}
-
-The next section develops conceptual foundations for context--adaptive inference, preparing detailed discussions of explicit and implicit modeling in later sections.
-
-\chapter{Overview}\label{c:overview}
-
-\section{From Population Assumptions to Context-Adaptive Inference}
-Most statistical and machine learning models begin with a foundational assumption: that all samples are drawn independently and identically from a shared population distribution. This assumption simplifies estimation and enables generalization from limited data, but it collapses in the presence of meaningful heterogeneity.
-
-In practice, data often reflect differences across individuals, environments, or conditions. These differences may stem from biological variation, temporal drift, site effects, or shifts in measurement context. Treating heterogeneous data as if it were homogeneous can obscure real effects, inflate variance, and lead to brittle predictions. As data grows more complex, the failure of this assumption not only limits accuracy but also obscures causal and contextual relationships underlying modern inference.
-
-\section{Failure Modes of Population Models}
-
-Even when traditional models appear to fit aggregate data well, they may hide systematic failure modes.
-\subsection{Mode Collapse}
-When one subpopulation is much larger than another, standard models are biased toward the dominant group, under representing the minority group in both fit and predictions.
-
-\subsection{Outlier Sensitivity}
-In the parameter-averaging regime, small but extreme groups can disproportionately distort the global model, especially in methods like ordinary least squares.
-
-\subsection{Phantom Populations}
-When multiple subpopulations are equally represented, the global model may fit none of them well, instead converging to a solution that represents a non-existent average case.
-
-\autoref{fig:population-failures} shows the detail
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.8\linewidth]{images/population_failures.png}
-    \caption{Failure Modes of Population Models. Illustrative schematics of common failure types when fitting a single global model to heterogeneous data. 
-(A) Mode Collapse: the dominant group drives the fit, underrepresenting the minority. 
-(B) Outlier Sensitivity: extreme points distort the global line, shifting predictions away from the majority. 
-(C) Phantom Populations: the global fit represents no actual subgroup, but an artificial average. 
-(D) Hidden Confounding / Simpson’s Paradox: aggregate trends reverse subgroup trends, obscuring true relationships.}
-    \label{fig:population-failures}
-\end{figure}
-
-These behaviors reflect a deeper problem: the assumption of identically distributed samples is not just incorrect, but actively harmful in heterogeneous settings.
-
-\section{Toward Context-Aware Models}
-
-To account for heterogeneity, we must relax the assumption of shared parameters and allow the data-generating process to vary across samples. A general formulation assumes each observation is governed by its own latent parameters:
-\begin{equation*}
-x_i \sim P(x; \theta_i).
-\end{equation*}
-
-However, estimating $N$ free parameters from $N$ samples is underdetermined. 
-Context-aware approaches resolve this by introducing structure on how parameters vary, often by assuming that $\theta_i$ depends on an observed context $c_i$:
-\begin{equation*}
-\theta_i = f(c_i) \quad \text{or} \quad \theta_i \sim P(\theta \mid c_i).
-\end{equation*}
-
-This formulation makes the model estimable, but it raises new challenges. 
-How should $f$ be chosen? How smooth, flexible, or structured should it be? The remainder of this review explores different answers to this question, and shows how implicit and explicit representations of context can lead to powerful, personalized models.
-
-A classical example of this challenge arises in causal inference. Following the Neyman–Rubin potential outcomes framework, we let $Y(1)$ and $Y(0)$ denote the outcomes that would be observed under treatment and control, respectively. The average treatment effect (ATE) is then $E[Y(1) - Y(0)]$, or more generally the conditional average treatment effect (CATE) given covariates. Standard approaches often condition only on $X$, while heterogeneous treatment effect (HTE) models incorporate additional context $C$ to capture systematic variation across subpopulations (\autoref{fig:hte-context}).
-
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.7\linewidth]{images/hte.png}
-    \caption{Heterogeneous treatment effects. Left: average treatment effect (ATE) conditional on $X$, implicitly assuming homogeneity across contexts. Right: conditional average treatment effect (CATE) that allows treatment effects to vary systematically with additional context $C$.}
-    \label{fig:hte-context}
-\end{figure}
-
-These models highlight both the promise and the challenges of choosing and estimating $f(c)$.
-
-\section{Classical Remedies: Grouped and Distance-Based Models}
-Before diving into flexible estimators of $f(c)$, we review early modeling strategies that attempt to break away from homogeneity.
-\subsection{Conditional and Clustered Models}
-
-One approach is to group observations into C contexts, either by manually defining conditions (e.g. male vs. female) or using unsupervised clustering. Each group is then assigned a distinct parameter vector:
-\begin{equation}
-\{\widehat{\theta}_0, \ldots, \widehat{\theta}_C\} = \arg\max_{\theta_0, \ldots, \theta_C} \sum_{c \in \mathcal{C}} \ell(X_c; \theta_c),
-\end{equation}
-where $\ell(X; \theta)$ is the log-likelihood of $\theta$ on $X$ and $c$ specifies the covariate group that samples are assigned to. This reduces variance but limits granularity. It assumes that all members of a group share the same distribution and fails to capture variation within a group.
-These early methods relax global homogeneity yet still rely on discrete partitions, motivating smoother and more flexible formulations explored in the next sections.
-\subsection{Distance-Regularized Estimation}
-
-A more flexible alternative assumes that observations with similar contexts should have similar parameters:
-\begin{equation*}
-\{\widehat{\theta}_0, \ldots, \widehat{\theta}_N\} = \arg\max_{\theta_0, \ldots, \theta_N} \left( \sum_i \ell(x_i; \theta_i) - \sum_{i,j} \frac{\|\theta_i - \theta_j\|}{D(c_i, c_j)} \right).
-\end{equation*}
-where $D(c_i,c_j)$ is a distance metric between contexts. This approach allows for smoother parameter variation but requires careful choice of $D$ and regularization strength $\lambda$ to balance bias and variance.
-The choice of distance metric D and regularization strength $\lambda$ controls the bias–variance tradeoff.
-
-\section{Parametric and Semi-parametric Varying-Coefficient Models}
-
-Parametric varying-coefficient models assume parameters change linearly with context \citep{hastie1993varying}:
-\begin{equation}
-\widehat{A} = \arg\max_A \sum_i \ell(x_i; A c_i).
-\end{equation}
-
-Semi-parametric varying-coefficient models relax linearity and impose smoothness using kernel weighting \citep{fan2002variable}.
-
-\section{Contextualized Models}
-
-Contextualized models estimate $f(c)$ non-parametrically, often using neural networks \citep{chen2017contextnet}:
-\begin{equation}
-\widehat{f} = \arg\max_{f \in \mathcal{F}} \sum_i \ell(x_i; f(c_i)).
-\end{equation}
-
-\section{Partition and Latent-Structure Models}
-
-Partition models encourage piecewise-constant parameter structure using TV penalties \citep{harchaoui2010multiple}:
-\begin{equation}
-\{\widehat{\theta}_0, \dots, \widehat{\theta}_N\} = \arg\max \left( \sum_i \ell(x_i; \theta_i) + \lambda \sum_{i = 2}^N \|\theta_i - \theta_{i-1}\| \right).
-\end{equation}
-
-\section{Fine-tuned Models and Transfer Learning}
-
-A global population model is first estimated, and then adapted for subpopulations \citep{bommasani2021opportunities}.
-
-\section{A Spectrum of Context-Awareness}
-
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.7\linewidth]{images/spectrum_context.png}
-    \caption{A spectrum of context awareness in modeling, showing global, grouped, smooth, and latent models.}
-    \label{fig:spectrum-context}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%% 04. historical
-\chapter{Overview}\label{c:overview}
+% conclusion
+\input{content/12conclusion.tex}
 
 \backmatter  % references, restarts sample
 

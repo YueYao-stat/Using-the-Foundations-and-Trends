@@ -1,0 +1,114 @@
+\chapter{Overview}\label{c:overview}
+
+\section{From Population Assumptions to Context-Adaptive Inference}
+Most statistical and machine learning models begin with a foundational assumption: that all samples are drawn independently and identically from a shared population distribution. This assumption simplifies estimation and enables generalization from limited data, but it collapses in the presence of meaningful heterogeneity.
+
+In practice, data often reflect differences across individuals, environments, or conditions. These differences may stem from biological variation, temporal drift, site effects, or shifts in measurement context. Treating heterogeneous data as if it were homogeneous can obscure real effects, inflate variance, and lead to brittle predictions. As data grows more complex, the failure of this assumption not only limits accuracy but also obscures causal and contextual relationships underlying modern inference.
+
+\section{Failure Modes of Population Models}
+
+Even when traditional models appear to fit aggregate data well, they may hide systematic failure modes.
+\subsection{Mode Collapse}
+When one subpopulation is much larger than another, standard models are biased toward the dominant group, under representing the minority group in both fit and predictions.
+
+\subsection{Outlier Sensitivity}
+In the parameter-averaging regime, small but extreme groups can disproportionately distort the global model, especially in methods like ordinary least squares.
+
+\subsection{Phantom Populations}
+When multiple subpopulations are equally represented, the global model may fit none of them well, instead converging to a solution that represents a non-existent average case.
+
+\autoref{fig:population-failures} shows the detail
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/population_failures.png}
+    \caption{Failure Modes of Population Models. Illustrative schematics of common failure types when fitting a single global model to heterogeneous data. 
+(A) Mode Collapse: the dominant group drives the fit, underrepresenting the minority. 
+(B) Outlier Sensitivity: extreme points distort the global line, shifting predictions away from the majority. 
+(C) Phantom Populations: the global fit represents no actual subgroup, but an artificial average. 
+(D) Hidden Confounding / Simpson’s Paradox: aggregate trends reverse subgroup trends, obscuring true relationships.}
+    \label{fig:population-failures}
+\end{figure}
+
+These behaviors reflect a deeper problem: the assumption of identically distributed samples is not just incorrect, but actively harmful in heterogeneous settings.
+
+\section{Toward Context-Aware Models}
+
+To account for heterogeneity, we must relax the assumption of shared parameters and allow the data-generating process to vary across samples. A general formulation assumes each observation is governed by its own latent parameters:
+\begin{equation*}
+x_i \sim P(x; \theta_i).
+\end{equation*}
+
+However, estimating $N$ free parameters from $N$ samples is underdetermined. 
+Context-aware approaches resolve this by introducing structure on how parameters vary, often by assuming that $\theta_i$ depends on an observed context $c_i$:
+\begin{equation*}
+\theta_i = f(c_i) \quad \text{or} \quad \theta_i \sim P(\theta \mid c_i).
+\end{equation*}
+
+This formulation makes the model estimable, but it raises new challenges. 
+How should $f$ be chosen? How smooth, flexible, or structured should it be? The remainder of this review explores different answers to this question, and shows how implicit and explicit representations of context can lead to powerful, personalized models.
+
+A classical example of this challenge arises in causal inference. Following the Neyman–Rubin potential outcomes framework, we let $Y(1)$ and $Y(0)$ denote the outcomes that would be observed under treatment and control, respectively. The average treatment effect (ATE) is then $E[Y(1) - Y(0)]$, or more generally the conditional average treatment effect (CATE) given covariates. Standard approaches often condition only on $X$, while heterogeneous treatment effect (HTE) models incorporate additional context $C$ to capture systematic variation across subpopulations (\autoref{fig:hte-context}).
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\linewidth]{images/hte.png}
+    \caption{Heterogeneous treatment effects. Left: average treatment effect (ATE) conditional on $X$, implicitly assuming homogeneity across contexts. Right: conditional average treatment effect (CATE) that allows treatment effects to vary systematically with additional context $C$.}
+    \label{fig:hte-context}
+\end{figure}
+
+These models highlight both the promise and the challenges of choosing and estimating $f(c)$.
+
+\section{Classical Remedies: Grouped and Distance-Based Models}
+Before diving into flexible estimators of $f(c)$, we review early modeling strategies that attempt to break away from homogeneity.
+\subsection{Conditional and Clustered Models}
+
+One approach is to group observations into C contexts, either by manually defining conditions (e.g. male vs. female) or using unsupervised clustering. Each group is then assigned a distinct parameter vector:
+\begin{equation}
+\{\widehat{\theta}_0, \ldots, \widehat{\theta}_C\} = \arg\max_{\theta_0, \ldots, \theta_C} \sum_{c \in \mathcal{C}} \ell(X_c; \theta_c),
+\end{equation}
+where $\ell(X; \theta)$ is the log-likelihood of $\theta$ on $X$ and $c$ specifies the covariate group that samples are assigned to. This reduces variance but limits granularity. It assumes that all members of a group share the same distribution and fails to capture variation within a group.
+These early methods relax global homogeneity yet still rely on discrete partitions, motivating smoother and more flexible formulations explored in the next sections.
+\subsection{Distance-Regularized Estimation}
+
+A more flexible alternative assumes that observations with similar contexts should have similar parameters:
+\begin{equation*}
+\{\widehat{\theta}_0, \ldots, \widehat{\theta}_N\} = \arg\max_{\theta_0, \ldots, \theta_N} \left( \sum_i \ell(x_i; \theta_i) - \sum_{i,j} \frac{\|\theta_i - \theta_j\|}{D(c_i, c_j)} \right).
+\end{equation*}
+where $D(c_i,c_j)$ is a distance metric between contexts. This approach allows for smoother parameter variation but requires careful choice of $D$ and regularization strength $\lambda$ to balance bias and variance.
+The choice of distance metric D and regularization strength $\lambda$ controls the bias–variance tradeoff.
+
+\section{Parametric and Semi-parametric Varying-Coefficient Models}
+
+Parametric varying-coefficient models assume parameters change linearly with context \citep{hastie1993varying}:
+\begin{equation}
+\widehat{A} = \arg\max_A \sum_i \ell(x_i; A c_i).
+\end{equation}
+
+Semi-parametric varying-coefficient models relax linearity and impose smoothness using kernel weighting \citep{fan2002variable}.
+
+\section{Contextualized Models}
+
+Contextualized models estimate $f(c)$ non-parametrically, often using neural networks \citep{chen2017contextnet}:
+\begin{equation}
+\widehat{f} = \arg\max_{f \in \mathcal{F}} \sum_i \ell(x_i; f(c_i)).
+\end{equation}
+
+\section{Partition and Latent-Structure Models}
+
+Partition models encourage piecewise-constant parameter structure using TV penalties \citep{harchaoui2010multiple}:
+\begin{equation}
+\{\widehat{\theta}_0, \dots, \widehat{\theta}_N\} = \arg\max \left( \sum_i \ell(x_i; \theta_i) + \lambda \sum_{i = 2}^N \|\theta_i - \theta_{i-1}\| \right).
+\end{equation}
+
+\section{Fine-tuned Models and Transfer Learning}
+
+A global population model is first estimated, and then adapted for subpopulations \citep{bommasani2021opportunities}.
+
+\section{A Spectrum of Context-Awareness}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\linewidth]{images/spectrum_context.png}
+    \caption{A spectrum of context awareness in modeling, showing global, grouped, smooth, and latent models.}
+    \label{fig:spectrum-context}
+\end{figure}
