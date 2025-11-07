@@ -1,0 +1,1857 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.7)  7 NOV 2025 17:02
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**e:/files/Using-the-Foundations-and-Trends/main.tex
+(e:/files/Using-the-Foundations-and-Trends/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(nowfnt.cls
+Document Class: nowfnt 2021/10/12 v0.95d NOW document class
+(C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count187
+) (NOWFnT-data.tex)
+
+Class nowfnt Warning: Unclear state. Remove the class option book or ebook or sample on input line 129.
+
+(C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/base\bk11.clo
+File: bk11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (HMM)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpageclassic.sty
+Package: lastpageclassic 2025/08/14 v2.1h Refers to last page's name (HMM; JPG)
+) 
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count197
+\mult@box=\box51
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count198
+\c@collectmore=\count199
+\doublecol@number=\count266
+\multicoltolerance=\count267
+\multicolpretolerance=\count268
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\mc@boxedresult=\box54
+\maxbalancingoverflow=\dimen146
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@firstbox=\box57
+\mult@gfirstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\c@minrows=\count269
+\c@columnbadness=\count270
+\c@finalcolumnbadness=\count271
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\mc@col@check@num=\count272
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box97
+\extrarowheight=\dimen151
+\NC@list=\toks17
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box98
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2025/05/09 v7.0b a miscellany of footnote facilities
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc-2022-02-14.sty
+Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
+\FN@temptoken=\toks18
+\footnotemargin=\dimen152
+\@outputbox@depth=\dimen153
+Package footmisc Info: Declaring symbol style bringhurst on input line 699.
+Package footmisc Info: Declaring symbol style chicago on input line 707.
+Package footmisc Info: Declaring symbol style wiley on input line 716.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
+Package footmisc Info: Declaring symbol style lamport* on input line 747.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 768.
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count273
+\calc@Bcount=\count274
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count275
+\calc@Cskip=\skip56
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen156
+\ESO@tempdimb=\dimen157
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+\AM@pagewidth=\dimen160
+\AM@pageheight=\dimen161
+\AM@fboxrule=\dimen162
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count276
+\AM@pagebox=\box99
+\AM@global@opts=\toks20
+\AM@pagecnt=\count277
+\AM@toc@title=\toks21
+\AM@lof@heading=\toks22
+\c@AM@survey=\count278
+\AM@templatesizebox=\box100
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/tools\xr.sty
+Package: xr 2023-07-04 v5.06 eXternal References (DPC)
+)
+\c@nowfnt@tempcnt=\count279
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+\MT@toks=\toks23
+\MT@tempbox=\box101
+\MT@count=\count280
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen163
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count281
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip57
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip58
+\f@nch@offset@elh=\skip59
+\f@nch@offset@erh=\skip60
+\f@nch@offset@olh=\skip61
+\f@nch@offset@orh=\skip62
+\f@nch@offset@elf=\skip63
+\f@nch@offset@erf=\skip64
+\f@nch@offset@olf=\skip65
+\f@nch@offset@orf=\skip66
+\f@nch@height=\skip67
+\f@nch@footalignment=\skip68
+\f@nch@widthL=\skip69
+\f@nch@widthC=\skip70
+\f@nch@widthR=\skip71
+\@temptokenb=\toks25
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box102
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen164
+\ttl@minus=\dimen165
+\ttl@toksa=\toks26
+\titlewidth=\dimen166
+\titlewidthlast=\dimen167
+\titlewidthfirst=\dimen168
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen169
+\captionmargin=\dimen170
+\caption@leftmargin=\dimen171
+\caption@rightmargin=\dimen172
+\caption@width=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count282
+\c@continuedfloat=\count283
+)
+\c@nowfnt@author@cnt=\count284
+\c@nowfnt@affil@cnt=\count285
+\c@nowfnt@affilmax@cnt=\count286
+\nowfnt@article@databox=\box103
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/emptypage\emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
+)
+\nowfnt@tmpabox=\box104
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (nowfnt-biblatex.sty
+Package: nowfnt-biblatex 2020/09/04 v1.1e biblatex styling
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count287
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count288
+\c@listtotal=\count289
+\c@listcount=\count290
+\c@liststart=\count291
+\c@liststop=\count292
+\c@citecount=\count293
+\c@citetotal=\count294
+\c@multicitecount=\count295
+\c@multicitetotal=\count296
+\c@instcount=\count297
+\c@maxnames=\count298
+\c@minnames=\count299
+\c@maxitems=\count300
+\c@minitems=\count301
+\c@citecounter=\count302
+\c@maxcitecounter=\count303
+\c@savedcitecounter=\count304
+\c@uniquelist=\count305
+\c@uniquename=\count306
+\c@refsection=\count307
+\c@refsegment=\count308
+\c@maxextratitle=\count309
+\c@maxextratitleyear=\count310
+\c@maxextraname=\count311
+\c@maxextradate=\count312
+\c@maxextraalpha=\count313
+\c@abbrvpenalty=\count314
+\c@highnamepenalty=\count315
+\c@lownamepenalty=\count316
+\c@maxparens=\count317
+\c@parenlevel=\count318
+\blx@tempcnta=\count319
+\blx@tempcntb=\count320
+\blx@tempcntc=\count321
+\c@blx@maxsection=\count322
+\blx@maxsegment@0=\count323
+\blx@notetype=\count324
+\blx@parenlevel@text=\count325
+\blx@parenlevel@foot=\count326
+\blx@sectionciteorder@0=\count327
+\blx@sectionciteorderinternal@0=\count328
+\blx@entrysetcounter=\count329
+\blx@biblioinstance=\count330
+\labelnumberwidth=\skip74
+\labelalphawidth=\skip75
+\biblabelsep=\skip76
+\bibitemsep=\skip77
+\bibnamesep=\skip78
+\bibinitsep=\skip79
+\bibparsep=\skip80
+\bibhang=\skip81
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@labelname=\count370
+\c@savedlabelname=\count371
+\c@institution=\count372
+\c@savedinstitution=\count373
+\c@lista=\count374
+\c@savedlista=\count375
+\c@listb=\count376
+\c@savedlistb=\count377
+\c@listc=\count378
+\c@savedlistc=\count379
+\c@listd=\count380
+\c@savedlistd=\count381
+\c@liste=\count382
+\c@savedliste=\count383
+\c@listf=\count384
+\c@savedlistf=\count385
+\c@location=\count386
+\c@savedlocation=\count387
+\c@organization=\count388
+\c@savedorganization=\count389
+\c@origlocation=\count390
+\c@savedoriglocation=\count391
+\c@origpublisher=\count392
+\c@savedorigpublisher=\count393
+\c@publisher=\count394
+\c@savedpublisher=\count395
+\c@language=\count396
+\c@savedlanguage=\count397
+\c@origlanguage=\count398
+\c@savedoriglanguage=\count399
+\c@pageref=\count400
+\c@savedpageref=\count401
+\shorthandwidth=\skip82
+\shortjournalwidth=\skip83
+\shortserieswidth=\skip84
+\shorttitlewidth=\skip85
+\shortauthorwidth=\skip86
+\shorteditorwidth=\skip87
+\locallabelnumberwidth=\skip88
+\locallabelalphawidth=\skip89
+\localshorthandwidth=\skip90
+\localshortjournalwidth=\skip91
+\localshortserieswidth=\skip92
+\localshorttitlewidth=\skip93
+\localshortauthorwidth=\skip94
+\localshorteditorwidth=\skip95
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count402
+\c@textcitetotal=\count403
+\c@textcitemaxnames=\count404
+\c@biburlbigbreakpenalty=\count405
+\c@biburlbreakpenalty=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count410
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
+File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear.bbx
+File: authoryear.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear.cbx
+File: authoryear.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count413
+\l__pdf_internal_box=\box105
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-01-04 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count414
+\csq@gtype=\count415
+\csq@glevel=\count416
+\csq@qlevel=\count417
+\csq@maxlvl=\count418
+\csq@tshold=\count419
+\csq@ltx@everypar=\toks27
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
+\thm@preskip=\skip96
+\thm@postskip=\skip97
+\thm@headsep=\skip98
+\dth@everypar=\toks33
+)
+\c@theorem=\count420
+\c@proposition=\count421
+\c@remark=\count422
+\c@definition=\count423
+\c@example=\count424
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count425
+\Gm@cntv=\count426
+\c@Gm@tempcnt=\count427
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks34
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count428
+)
+\@linkdim=\dimen185
+\Hy@linkcounter=\count429
+\Hy@pagecounter=\count430
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count431
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4064.
+Package hyperref Info: Option `plainpages' set `false' on input line 4064.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4064.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count432
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen186
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count433
+\Field@Width=\dimen187
+\Fld@charsize=\dimen188
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring ON on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count434
+\c@Item=\count435
+\c@Hfootnote=\count436
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count437
+\c@bookmark@seq@number=\count438
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip99
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count439
+))
+\c@nowfnt@nowinclude=\count440
+\c@nowfnt@article@cnt=\count441
+\nowfnt@write=\write4
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks35
+\inpenc@posthook=\toks36
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip100
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks37
+\ex@=\dimen189
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen190
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count442
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count443
+\leftroot@=\count444
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count445
+\DOTSCASE@=\count446
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box106
+\strutbox@=\box107
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen191
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count447
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count448
+\dotsspace@=\muskip21
+\c@parentequation=\count449
+\dspbrk@lvl=\count450
+\tag@help=\toks38
+\row@=\count451
+\column@=\count452
+\maxfields@=\count453
+\andhelp@=\toks39
+\eqnshift@=\dimen192
+\alignsep@=\dimen193
+\tagshift@=\dimen194
+\tagwidth@=\dimen195
+\totwidth@=\dimen196
+\lineht@=\dimen197
+\@envbody=\toks40
+\multlinegap=\skip101
+\multlinetaggap=\skip102
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count454
+\l_MT_multwidth_dim=\dimen198
+\origjot=\skip103
+\l_MT_shortvdotswithinadjustabove_dim=\dimen199
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen256
+\l_MT_above_intertext_sep=\dimen257
+\l_MT_below_intertext_sep=\dimen258
+\l_MT_above_shortintertext_sep=\dimen259
+\l_MT_below_shortintertext_sep=\dimen260
+\xmathstrut@box=\box108
+\xmathstrut@dim=\dimen261
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen262
+\lightrulewidth=\dimen263
+\cmidrulewidth=\dimen264
+\belowrulesep=\dimen265
+\belowbottomsep=\dimen266
+\aboverulesep=\dimen267
+\abovetopsep=\dimen268
+\cmidrulesep=\dimen269
+\cmidrulekern=\dimen270
+\defaultaddspace=\dimen271
+\@cmidla=\count455
+\@cmidlb=\count456
+\@aboverulesep=\dimen272
+\@belowrulesep=\dimen273
+\@thisruleclass=\count457
+\@lastruleclass=\count458
+\@thisrulewidth=\dimen274
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen275
+\TX@old@table=\dimen276
+\TX@old@col=\dimen277
+\TX@target=\dimen278
+\TX@delta=\dimen279
+\TX@cols=\count459
+\TX@ftn=\toks42
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen280
+\c@nlinenum=\count460
+\TeXr@lab=\toks43
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip104
+\RaggedLeftLeftskip=\skip105
+\RaggedRightLeftskip=\skip106
+\CenteringRightskip=\skip107
+\RaggedLeftRightskip=\skip108
+\RaggedRightRightskip=\skip109
+\CenteringParfillskip=\skip110
+\RaggedLeftParfillskip=\skip111
+\RaggedRightParfillskip=\skip112
+\JustifyingParfillskip=\skip113
+\CenteringParindent=\skip114
+\RaggedLeftParindent=\skip115
+\RaggedRightParindent=\skip116
+\JustifyingParindent=\skip117
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/mwe\mwe.sty
+Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count461
+\l__lipsum_a_int=\count462
+\l__lipsum_b_int=\count463
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count464
+\c@Blindtext=\count465
+\c@blind@countparstart=\count466
+\blind@countxx=\count467
+\blindtext@numBlindtext=\count468
+\blind@countyy=\count469
+\c@blindlist=\count470
+\c@blindlistlevel=\count471
+\c@blindlist@level=\count472
+\blind@listitem=\count473
+\c@blind@listcount=\count474
+\c@blind@levelcount=\count475
+\blind@mathformula=\count476
+\blind@Mathformula=\count477
+\c@blind@randomcount=\count478
+\c@blind@randommax=\count479
+\c@blind@pangramcount=\count480
+\c@blind@pangrammax=\count481
+))
+
+Package biblatex Warning: Load 'inputenc' before biblatex.
+
+
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 139.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
+Package csquotes Warning: No multilingual support.
+(csquotes)                Cannot enable multilingual quotes on input line 139.
+
+
+LaTeX Warning: Unused global option(s):
+    [MAL].
+
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+(C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count482
+\scratchdimen=\dimen281
+\scratchbox=\box109
+\nofMPsegments=\count483
+\nofMParguments=\count484
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count485
+\MPscratchDim=\dimen282
+\MPnumerator=\count486
+\makeMPintoPDFobject=\count487
+\everyMPtoPDFconversion=\toks45
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+LaTeX Info: Redefining \microtypecontext on input line 139.
+Package microtype Info: Applying patch `item' on input line 139.
+Package microtype Info: Applying patch `toc' on input line 139.
+Package microtype Info: Applying patch `eqnum' on input line 139.
+Package microtype Info: Applying patch `footnote' on input line 139.
+Package microtype Info: Applying patch `verbatim' on input line 139.
+LaTeX Info: Redefining \microtypesetup on input line 139.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 139.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 139.
+Package biblatex Info: Reference segment=0 on input line 139.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: twoside heightrounded 
+* h-part:(L,W,R)=(54.06024pt, 335.74251pt, 54.06024pt)
+* v-part:(T,H,B)=(76.82243pt, 512.1496pt, 76.82245pt)
+* \paperwidth=443.86299pt
+* \paperheight=665.79448pt
+* \textwidth=335.74251pt
+* \textheight=514.99979pt
+* \oddsidemargin=-18.20975pt
+* \evensidemargin=-18.20975pt
+* \topmargin=-29.72134pt
+* \headheight=14.4pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 139.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 139.
+(C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 139.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 139.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 139.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 139.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 139.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 139.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 139.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 139.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 139.
+ (C:\Users\cloud\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 139.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <13> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.09996> on input line 139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.5> on input line 139.
+
+Overfull \hbox (24.76454pt too wide) in paragraph at lines 139--139
+ [][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+{C:/Users/cloud/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/cloud/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/cloud/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+Package epstopdf Info: Source file: <now_logo.eps>
+(epstopdf)                    date: 2025-11-07 10:35:43
+(epstopdf)                    size: 197243 bytes
+(epstopdf)             Output file: <now_logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-07 11:49:29
+(epstopdf)                    size: 7497 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=now_logo-eps-converted-to.pdf now_logo.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
+<now_logo-eps-converted-to.pdf, id=13, 105.39375pt x 33.12375pt>
+File: now_logo-eps-converted-to.pdf Graphic file (type pdf)
+<use now_logo-eps-converted-to.pdf>
+Package pdftex.def Info: now_logo-eps-converted-to.pdf  used on input line 139.
+(pdftex.def)             Requested size: 53.19875pt x 16.72002pt.
+<essence_logo.pdf, id=14, 162.6075pt x 16.06pt>
+File: essence_logo.pdf Graphic file (type pdf)
+<use essence_logo.pdf>
+Package pdftex.def Info: essence_logo.pdf  used on input line 139.
+(pdftex.def)             Requested size: 81.30374pt x 8.03021pt.
+ [2 <./now_logo-eps-converted-to.pdf> <./essence_logo.pdf>]
+No file main.toc.
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+[3
+
+
+] (content/01abstract.tex [1
+
+]) [2{C:/Users/cloud/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/cloud/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
+Chapter 1.
+(content/02introduction.tex
+
+LaTeX Warning: Reference `fig:overview-bridge' on page 3 undefined on input line 4.
+
+
+LaTeX Warning: Reference `eq:star-obj' on page 3 undefined on input line 4.
+
+<images/overview.png, id=54, 1581.91pt x 921.4425pt>
+File: images/overview.png Graphic file (type png)
+<use images/overview.png>
+Package pdftex.def Info: images/overview.png  used on input line 8.
+(pdftex.def)             Requested size: 302.1662pt x 176.00386pt.
+[3
+
+{C:/Users/cloud/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [4 <./images/overview.png>]
+
+LaTeX Warning: Reference `eq:star-obj' on page 5 undefined on input line 48.
+
+
+Overfull \hbox (21.25496pt too wide) detected at line 53
+[][][][] \OML/lmm/m/it/10.95 w[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 ) \OML/lmm/m/it/10.95 ` []h[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ; y[][]  \OT1/lmr/m/n/10.95 +  \OMS/lmsy/m/n/10.95 R\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ^^R\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ;  w[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 / \OML/lmm/m/it/10.95 K []^^^\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ; ^^^\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c[]\OT1/lmr/m/n/10.95 )[] \OMS/lmsy/m/n/10.95 ^^A \OT1/lmr/bx/n/10.95 1 []\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 i; j\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 S\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 )[]\OML/lmm/m/it/10.95 :
+ []
+
+
+LaTeX Warning: Reference `eq:star-obj' on page 5 undefined on input line 60.
+
+[5{C:/Users/cloud/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.61 \end{enumerate}
+                    ]
+Overfull \hbox (3.5346pt too wide) detected at line 92
+[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x; c\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 k[][]K \OT1/lmr/m/n/10.95 + \OML/lmm/m/it/10.95 ^^UI[][]y;  K[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95 h\OML/lmm/m/it/10.95  [];  []\OMS/lmsy/m/n/10.95 i \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95 h\OML/lmm/m/it/10.95 x[]; x[]\OMS/lmsy/m/n/10.95 i ^^A h\OML/lmm/m/it/10.95 ^^^\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c[]\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ; ^^^\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c[]\OT1/lmr/m/n/10.95 )\OMS/lmsy/m/n/10.95 i\OML/lmm/m/it/10.95 ;
+ []
+
+[6] [7]
+
+LaTeX Warning: Reference `tab:surveys' on page 8 undefined on input line 120.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\T1/lmr/bx/n/10.95 (+20) Coverage
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 131--132
+[]|\T1/lmr/bx/n/10.95 (+20) Gap Rel-a-tive
+ []
+
+
+LaTeX Warning: Citation 'replace-with-vcm-key' on page 8 undefined on input line 133.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\T1/lmr/m/n/10.95 (+20) Statistical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/lmr/m/n/10.95 (+20) Meth-ods
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/lmr/m/n/10.95 (+20) Co-ef-fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/lmr/m/n/10.95 (+20) cient Mod-
+ []
+
+
+Overfull \hbox (79.45126pt too wide) in paragraph at lines 133--133
+\T1/lmr/m/n/10.95 (-20) els ([])| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\T1/lmr/m/n/10.95 (+20) Varying--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\T1/lmr/m/n/10.95 (+20) coefficient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\T1/lmr/m/n/10.95 (+20) Classical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/lmr/m/n/10.95 (+20) sta-tis-ti-cal
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 135--135
+\T1/lmr/m/n/10.95 (+20) mod-el-ing with
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 135--135
+\T1/lmr/m/n/10.95 (+20) pa-ram-e-ters as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/lmr/m/n/10.95 (+20) func-tions of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\T1/lmr/m/n/10.95 (+20) Explicit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\T1/lmr/m/n/10.95 (+20) adap-tiv-ity
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 137--138
+[]|\T1/lmr/m/n/10.95 (+20) Limited to ex-
+ []
+
+
+LaTeX Warning: Citation 'replace-with-meta-key' on page 8 undefined on input line 139.
+
+
+Overfull \hbox (113.67921pt too wide) in paragraph at lines 139--139
+\T1/lmr/m/n/10.95 (-20) Learning ([])| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\T1/lmr/m/n/10.95 (+20) Meta--
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 141--141
+\T1/lmr/m/n/10.95 (+20) for cross--task
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\T1/lmr/m/n/10.95 (+20) Task--level
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+\T1/lmr/m/n/10.95 (+20) adap-tiv-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+\T1/lmr/m/n/10.95 (+20) en-abling
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 143--144
+\T1/lmr/m/n/10.95 (+20) switch-ing; lacks
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 143--144
+\T1/lmr/m/n/10.95 (+20) im-plicit adap-ta-
+ []
+
+
+LaTeX Warning: Citation 'replace-with-lora-key' on page 8 undefined on input line 145.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\T1/lmr/m/n/10.95 (+20) LoRA:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+\T1/lmr/m/n/10.95 (+20) Low--Rank
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+\T1/lmr/m/n/10.95 (+20) Adap-ta-tion
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 145--145
+\T1/lmr/m/n/10.95 (+20) guage Mod-
+ []
+
+
+Overfull \hbox (78.1662pt too wide) in paragraph at lines 145--145
+\T1/lmr/m/n/10.95 (-20) els ([])| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\T1/lmr/m/n/10.95 (+20) efficient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+\T1/lmr/m/n/10.95 (+20) trans-form-ers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+\T1/lmr/m/n/10.95 (+20) via low--rank
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\T1/lmr/m/n/10.95 (+20) Implicit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\T1/lmr/m/n/10.95 (+20) adap-tiv-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+[]|\T1/lmr/m/n/10.95 (+20) Narrow mech-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+\T1/lmr/m/n/10.95 (+20) a-nism fo-cus;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+\T1/lmr/m/n/10.95 (+20) lim-ited dis-cus-
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 149--150
+\T1/lmr/m/n/10.95 (+20) sion of ex-plicit
+ []
+
+
+LaTeX Warning: Citation 'replace-with-vision-fm-key' on page 8 undefined on input line 151.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|\T1/lmr/m/n/10.95 (+20) Foundation
+ []
+
+
+Overfull \hbox (111.03pt too wide) in paragraph at lines 151--151
+\T1/lmr/m/n/10.95 (-20) vey ([])| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T1/lmr/m/n/10.95 (+20) Vision
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\T1/lmr/m/n/10.95 (+20) foun-da-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|\T1/lmr/m/n/10.95 (+20) Architectures,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/lmr/m/n/10.95 (+20) Implicit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/lmr/m/n/10.95 (+20) adap-tiv-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+[]|\T1/lmr/m/n/10.95 (+20) Domain--specific
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+\T1/lmr/m/n/10.95 (+20) fo-cus; lim-ited
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 155--156
+\T1/lmr/m/n/10.95 (+20) the-o-ret-i-cal con-
+ []
+
+
+LaTeX Warning: Citation 'replace-with-fm-key' on page 8 undefined on input line 157.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]|\T1/lmr/m/n/10.95 (+20) A Com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/lmr/m/n/10.95 (+20) pre-hen-sive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/lmr/m/n/10.95 (+20) Sur-vey on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/lmr/m/n/10.95 (+20) Pre-trained
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/lmr/m/n/10.95 (+20) Foun-da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/lmr/m/n/10.95 (+20) tion Mod-
+ []
+
+
+Overfull \hbox (71.40625pt too wide) in paragraph at lines 157--157
+\T1/lmr/m/n/10.95 (-20) els ([])| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\T1/lmr/m/n/10.95 (+20) Pretrained
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\T1/lmr/m/n/10.95 (+20) foun-da-tion
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 159--159
+[]|\T1/lmr/m/n/10.95 (+20) Models across
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\T1/lmr/m/n/10.95 (+20) modal-i-ties
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\T1/lmr/m/n/10.95 (+20) and train-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\T1/lmr/m/n/10.95 (+20) Implicit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/lmr/m/n/10.95 (+20) adap-tiv-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/lmr/m/n/10.95 (+20) via rep-re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/lmr/m/n/10.95 (+20) sen-ta-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+[]|\T1/lmr/m/n/10.95 (+20) Broad scope
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+\T1/lmr/m/n/10.95 (+20) with-out deep
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+\T1/lmr/m/n/10.95 (+20) parameter--level
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+\T1/lmr/m/n/10.95 (+20) anal-y-sis or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+\T1/lmr/m/n/10.95 (+20) explicit--implicit
+ []
+
+
+Overfull \hbox (41.28366pt too wide) in paragraph at lines 128--165
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 22.76723pt on input line 165.
+
+)
+Overfull \hbox (6.40219pt too wide) in paragraph at lines 167--151
+[]\T1/lmr/m/n/10.95 (-20) The next sec-tion de-vel-ops con-cep-tual foun-da-tions for context--adaptive
+ []
+
+(content/03overview.tex [8] [9]
+Chapter 2.
+[10
+
+]
+
+LaTeX Warning: Reference `fig:population-failures' on page 11 undefined on input line 20.
+
+<images/population_failures.png, id=127, 2345.76375pt x 2678.005pt>
+File: images/population_failures.png Graphic file (type png)
+<use images/population_failures.png>
+Package pdftex.def Info: images/population_failures.png  used on input line 23.
+(pdftex.def)             Requested size: 268.59502pt x 306.63605pt.
+[11] [12 <./images/population_failures.png>]
+
+LaTeX Warning: Reference `fig:hte-context' on page 13 undefined on input line 50.
+
+<images/hte.png, id=142, 701.9826pt x 272.6988pt>
+File: images/hte.png Graphic file (type png)
+<use images/hte.png>
+Package pdftex.def Info: images/hte.png  used on input line 54.
+(pdftex.def)             Requested size: 235.01872pt x 91.29744pt.
+[13 <./images/hte.png>]
+
+LaTeX Warning: Citation 'hastie1993varying' on page 14 undefined on input line 82.
+
+
+LaTeX Warning: Citation 'fan2002variable' on page 14 undefined on input line 87.
+
+
+LaTeX Warning: Citation 'chen2017contextnet' on page 14 undefined on input line 91.
+
+[14]
+
+LaTeX Warning: Citation 'harchaoui2010multiple' on page 15 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'bommasani2021opportunities' on page 15 undefined on input line 105.
+
+<images/spectrum_context.png, id=161, 591.71063pt x 254.45062pt>
+File: images/spectrum_context.png Graphic file (type png)
+<use images/spectrum_context.png>
+Package pdftex.def Info: images/spectrum_context.png  used on input line 111.
+(pdftex.def)             Requested size: 235.01872pt x 101.06404pt.
+) (content/04historical.tex) (content/05principles.tex) (content/06explicit.tex) (content/07implicit.tex) (content/08interpretations.tex [15 <./images/spectrum_context.png>]
+Chapter 3.
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2108.07258' on page 16 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1702.08608' on page 16 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2402.02870' on page 16 undefined on input line 9.
+
+[16
+
+]
+<images/explicit_from_implicit.png, id=182, 2651.9075pt x 1248.665pt>
+File: images/explicit_from_implicit.png Graphic file (type png)
+<use images/explicit_from_implicit.png>
+Package pdftex.def Info: images/explicit_from_implicit.png  used on input line 17.
+(pdftex.def)             Requested size: 268.59502pt x 126.45522pt.
+ [17 <./images/explicit_from_implicit.png>]
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1602.04938' on page 18 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1705.07874' on page 18 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1703.01365' on page 18 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1704.02685' on page 18 undefined on input line 54.
+
+
+Overfull \hbox (32.31354pt too wide) in paragraph at lines 54--55
+\T1/lmr/m/n/10.95 (-20) tive at-tri-bu-tions based on Shap-ley val-ues ([]).
+ []
+
+
+Overfull \hbox (38.63718pt too wide) in paragraph at lines 54--55
+\T1/lmr/m/n/10.95 (-20) sen-si-tiv-ity or reference-based con-tri-bu-tions ([];
+ []
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1806.10574' on page 18 undefined on input line 58.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1803.04765' on page 18 undefined on input line 58.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1703.04730' on page 18 undefined on input line 58.
+
+
+Overfull \hbox (7.58998pt too wide) in paragraph at lines 58--59
+\T1/lmr/m/n/10.95 (-20) space and can flag dis-tri-bu-tion shift ([]).
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.4pt): 
+(fancyhdr)                Make it at least 26.32425pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.32425pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.92426pt}.
+
+[18]
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1801.03558' on page 19 undefined on input line 62.
+
+
+Overfull \hbox (49.29161pt too wide) in paragraph at lines 62--63
+\T1/lmr/m/n/10.95 (-20) and iden-tify sub-op-ti-mal in-fer-ence or col-lapse ([]).
+ []
+
+
+LaTeX Warning: Citation 'higgins2017betavae' on page 19 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1612.00410' on page 19 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1711.11279' on page 19 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1902.03129' on page 19 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1811.12359' on page 19 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'eastwood2018a' on page 19 undefined on input line 66.
+
+
+Overfull \hbox (15.17632pt too wide) in paragraph at lines 66--67
+\T1/lmr/m/n/10.95 (-20) ([]; []).
+ []
+
+[19]
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1610.01644' on page 20 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1905.06316' on page 20 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2202.05262' on page 20 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2104.08696' on page 20 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2310.05797' on page 20 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2402.02870' on page 20 undefined on input line 74.
+
+
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (14.4pt): 
+(fancyhdr)                Make it at least 26.32425pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.32425pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.92426pt}.
+
+[20] [21]
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2108.07258' on page 22 undefined on input line 114.
+
+
+Overfull \hbox (67.6065pt too wide) in paragraph at lines 114--115
+\T1/lmr/m/n/10.95 (-20) across tasks with-out de-grad-ing over-all ca-pa-bil-ity ([]).
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.4pt): 
+(fancyhdr)                Make it at least 26.32425pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.32425pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.92426pt}.
+
+[22]
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1702.08608' on page 23 undefined on input line 126.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2402.02870' on page 23 undefined on input line 126.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2106.08376' on page 23 undefined on input line 126.
+
+[23]
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1702.08608' on page 24 undefined on input line 138.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2402.02870' on page 24 undefined on input line 138.
+
+
+LaTeX Warning: Citation 'doi:10.1038/s42256-023-00620-w' on page 24 undefined on input line 138.
+
+
+Overfull \hbox (37.37196pt too wide) in paragraph at lines 138--139
+\T1/lmr/m/n/10.95 (-20) tion ([]; []).
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 162--162
+\T1/lmr/bx/n/10.95 (+20) con-text def-i-ni-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+\T1/lmr/bx/n/10.95 (+20) i-fi-ca-tion and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+\T1/lmr/bx/n/10.95 (+20) reg-u-lar-iza-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|\T1/lmr/bx/n/10.95 (+20) Faithfulness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+\T1/lmr/bx/n/10.95 (+20) un-cer-tainty
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|\T1/lmr/bx/n/10.95 (+20) Computational
+ []
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.2007.04612' on page 24 undefined on input line 167.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1802.07810' on page 24 undefined on input line 167.
+
+
+LaTeX Warning: Citation 'doi:10.48550/arXiv.1702.08608' on page 24 undefined on input line 167.
+
+
+Package fancyhdr Warning: \headheight is too small (14.4pt): 
+(fancyhdr)                Make it at least 26.32425pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.32425pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.92426pt}.
+
+[24] [25]) (content/09invariant.tex) (content/10applications_tools.tex) (content/11future_trends.tex)
+
+! LaTeX Error: File `content/12conclusion.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+e:/files/Using-the-Foundations-and-Trends/main.tex:181: Emergency stop.
+<read *> 
+         
+l.181 \input{content/12conclusion.tex}
+                                      ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 27189 strings out of 474486
+ 480496 string characters out of 5743755
+ 1941542 words of memory out of 5000000
+ 48574 multiletter control sequences out of 15000+600000
+ 712028 words of font info for 300 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 96i,13n,113p,1333b,1647s stack positions out of 10000i,1000n,20000p,200000b,200000s
+e:/files/Using-the-Foundations-and-Trends/main.tex:181:  ==> Fatal error occurred, no output PDF file produced!
